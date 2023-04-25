@@ -85,6 +85,11 @@ const Header = () => {
             {drawer}
           </Drawer>
         </Box>
+
+        <Box sx={{py:1}}>
+          <Toolbar/>
+        </Box>
+        
       </Box>
     </>
   )
